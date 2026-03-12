@@ -4,10 +4,16 @@ def calcular():
     imc = peso / (altura ** 2)
     print("su indice de masa corporal es: ", imc)
 
-
+def separador():
+    print("--------------------------------------------------") 
 while True:
+    separador()
     print("bienvenido al calculador de indice de masa corporal")
-    print(f"hola {input('ingrese su nombre: ')} bienvenido al calculador de indice de masa corporal")
+    separador()
+    nombre = input("ingrese su nombre: ")
+    separador()
+    print("Hola ", nombre, "bienvenido a nuestra calculador de IMC")
+    separador()
     print("1. calcular indice de masa corporal")
     print("2. salir")
     opcion = input("ingrese su opcion: ")
