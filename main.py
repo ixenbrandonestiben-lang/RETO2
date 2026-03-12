@@ -7,6 +7,7 @@ def calcular():
 
 while True:
     print("bienvenido al calculador de indice de masa corporal")
+    print(f"hola {input('ingrese su nombre: ')} bienvenido al calculador de indice de masa corporal")
     print("1. calcular indice de masa corporal")
     print("2. salir")
     opcion = input("ingrese su opcion: ")
